@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="Account" value="2100046466"/>
+    <parameter name="firstname" value="Test"/>
+    <parameter name="Transmitfrequency" value="100"/>
+    <parameter name="city" value="HYDERABAD"/>
+    <parameter name="postalCode" value="5001031"/>
+    <parameter name="Rconfirmpassword" value="Tessco@23"/>
+    <parameter name="title" value="Tessco Applications"/>
+    <parameter name="salesorder" value="5001355"/>
+    <parameter name="URL" value="https://stg.tessco.com/"/>
+    <parameter name="password" value="P@ssword1"/>
+    <parameter name="Search" value="556626"/>
+    <parameter name="Rpassword" value="rayavarapu"/>
+    <parameter name="sku" value="14515"/>
+    <parameter name="email" value="rayavarapu.madhuri94@gmail.com"/>
+    <parameter name="contactfirstname" value="madhuri"/>
+    <parameter name="companylegalentityname" value="octanglefx"/>
+    <parameter name="Receivefrequency" value="100"/>
+    <parameter name="contactlastname" value="rayavarapu"/>
+    <parameter name="lastname" value="Demo"/>
+    <parameter name="newcompanylegalentityname" value="octanglefx"/>
+    <parameter name="phone" value="9209273888"/>
+    <parameter name="addressline2" value="HYDERABAD"/>
+    <parameter name="addressline1" value="23-124 SECUNDERABAD"/>
+    <parameter name="Rusername" value="testdemok9"/>
+    <parameter name="username" value="cdmaxx"/>
+    <parameter name="Emailaddresstoreceiveinvoices" value="rayavarapu.madhuri94@gmail.com"/>
+    <classes>
+      <class name="testng.tessco.Login">
+        <methods>
+          <include name="chromeinstall"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testng.tessco.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
